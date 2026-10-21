@@ -1,0 +1,20 @@
+{
+  "name": "school-api-aws",
+  "version": "1.0.0",
+  "description": "REST API for students and teachers built with Node.js and Express on AWS (RDS, S3, SNS, DynamoDB).",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Jorge Várguez",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "aws-sdk": "^2.1693.0",
+    "dotenv": "^18.0.8",
+    "express": "^5.3.0",
+    "multer": "^2.4.0",
+    "mysql2": "^3.24.6",
+    "sequelize": "^6.37.8"
+  }
+}
